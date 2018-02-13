@@ -6,6 +6,8 @@ This bundle allows you to integrate the [jQuery FullCalendar](http://arshaw.com/
 
 Once installed, this bundle will use event listeners to load events from any bundle in your application.
 
+!!! based on adesigns/calendar-bundle !!!
+
 Installation
 ------------
 
