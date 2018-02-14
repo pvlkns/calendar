@@ -23,15 +23,16 @@ class AppKernel extends Kernel
 
     public function getCacheDir()
     {
-        return sys_get_temp_dir().'/'.Kernel::VERSION.'/adesigns-calendar-bundle/cache/'.$this->environment;
+        return sys_get_temp_dir() . '/' . Kernel::VERSION . '/adesigns-calendar-bundle/cache/' . $this->environment;
     }
+
     public function getLogDir()
     {
-        return sys_get_temp_dir().'/'.Kernel::VERSION.'/adesigns-calendar-bundle/logs';
+        return sys_get_temp_dir() . '/' . Kernel::VERSION . '/adesigns-calendar-bundle/logs';
     }
 
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
-        $loader->load(__DIR__.'/config.yml');
+        $loader->load(__DIR__ . '/config.yml');
     }
 }

@@ -1,4 +1,5 @@
 <?php
+
 namespace ADesigns\CalendarBundle\Tests\Fixtures\EventListener;
 
 use ADesigns\CalendarBundle\Entity\EventEntity;
@@ -25,6 +26,5 @@ class CalendarEventListener
             $event = new EventEntity("Fake Event Title", new \DateTime(), null, true);
             $calendarEvent->addEvent($event);
         }
-
     }
 }

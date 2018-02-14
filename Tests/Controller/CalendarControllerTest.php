@@ -1,4 +1,5 @@
 <?php
+
 namespace ADesigns\CalendarBundle\Tests\Controller;
 
 use ADesigns\CalendarBundle\Tests\Fixtures\EventListener\CalendarEventListener;
@@ -9,11 +10,12 @@ class CalendarControllerTest extends WebTestCase
     private $startTime;
     private $endTime;
 
-    public function setUp() {
+    public function setUp()
+    {
         parent::setUp();
 
-        $this->startTime =  new \DateTime(CalendarEventListener::TEST_START_TIME);
-        $this->endTime =  new \DateTime(CalendarEventListener::TEST_END_TIME);
+        $this->startTime = new \DateTime(CalendarEventListener::TEST_START_TIME);
+        $this->endTime = new \DateTime(CalendarEventListener::TEST_END_TIME);
     }
 
     public function testLoadCalendarEmptyAction()
@@ -27,8 +29,6 @@ class CalendarControllerTest extends WebTestCase
 
         $this->assertEquals('[]', $client->getResponse()->getContent());
     }
-
-
 
     public function testLoadCalendarNotEmptyAction()
     {

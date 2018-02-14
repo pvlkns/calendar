@@ -1,7 +1,7 @@
 {
     "name": "palo2583/calendar",
     "type": "symfony-bundle",
-    "description": "This bundle allows you to integrate the jQuery FullCalendar plugin into your Symfony2 application.",
+    "description": "This bundle allows you to integrate the jQuery FullCalendar plugin into your Symfony3 application.",
     "keywords": ["calendar", "fullcalendar", "jquery calendar"],
     "homepage": "http://github.com/adesigns/calendar-bundle",
     "license": "MIT",
