@@ -14,7 +14,7 @@
     ],
     "require": {
         "symfony/twig-bundle": "*",
-        "symfony/framework-bundle": "*",
+        "symfony/framework-bundle": "*"
     },
     "autoload": {
         "psr-0": {
